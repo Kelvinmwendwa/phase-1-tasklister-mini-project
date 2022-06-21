@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
-  const myToDo = document.getElementById("tasks");
-  const newTaskdescribed = document.getElementById("new-task-description");
-  const taskForm = document.getElementById("create-task-form");
+  const myToDo = document.querySelector("#tasks");
+  const newTaskdescribed = document.querySelector("#new-task-description");
+  const taskForm = document.querySelector("#create-task-form");
 
   const validInput = (input) => {
     input = input.trim();
